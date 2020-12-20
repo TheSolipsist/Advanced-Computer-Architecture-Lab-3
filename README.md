@@ -30,3 +30,6 @@ While dynamic power is dissipated only when switching, leakage power due to leak
 
 ### Step 2: gem5 & McPAT: EDP optimization
 
+#### Question 1:
+
+#### Question 2:
