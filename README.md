@@ -2,8 +2,8 @@
 
 Results collected by McPAT running on VirtualBox VM Ubuntu 19.10.
  
-  
-### Step 1: McPAT framework
+ 
+### Step 1: McPAT framework basics
 
 #### Question 1:
 
