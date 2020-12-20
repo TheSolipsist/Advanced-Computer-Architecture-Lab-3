@@ -26,7 +26,7 @@ While dynamic power is dissipated only when switching, leakage power due to leak
 
 #### Question 2:
 
-The 40 W processor could run a given program in less time than the 40 W processor, which would mean that, overall, the system would require less energy (assuming there are other components that consume power). In addition, if the 40 W processor has lower leakage power consumption, that would make it a more efficient choice. McPAT provides us with the total, dynamic, and leakage power, which could show us which processor is better (through the leakage/total ratio).
+The 40 W processor could run a given program in less time than its 4 W counterpart, which would mean that, overall, the system would require less energy (assuming there are other components that consume power). In addition, if the 40 W processor has lower leakage power consumption, that would make it a more efficient choice. McPAT provides us with the total, dynamic, and leakage power, which could show us which processor is better (through the leakage/total ratio).
 
 #### Question 3:
 
