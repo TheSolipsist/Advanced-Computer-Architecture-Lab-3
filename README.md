@@ -1,7 +1,5 @@
 # Advanced-Computer-Architecture-Lab-3
 
-## Second Lab Questions:
-
 Results collected by McPAT running on VirtualBox VM Ubuntu 19.10.
  
   
