@@ -23,3 +23,7 @@ Of the following leakage components, sub-threshold leakage is dominant.
 * I4: Gate oxide leakage
 
 While dynamic power is dissipated only when switching, leakage power due to leakage current is continuous.
+
+#### Question 2:
+
+#### Question 3:
