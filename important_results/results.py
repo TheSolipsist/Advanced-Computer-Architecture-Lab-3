@@ -1,4 +1,4 @@
-[
+results = [
 {
 "benchmark": "specbzip_0",
 "energy": 111.449729,
