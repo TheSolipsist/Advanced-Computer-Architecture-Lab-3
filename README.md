@@ -132,6 +132,31 @@ The following graphs show the peak power for each benchmark:
 
 ![image4](graphs/pngs/specsjeng.png)
 
+For inclusive purposes, the following graphs show the EDP for each benchmark:
+
+```specbzip```:
+
+![image0](graphs/pngs/EDP_graphs/specbzip.png)
+
+
+```spechmmer```:
+
+![image1](graphs/pngs/EDP_graphs/spechmmer.png)
+
+
+```speclibm```:
+
+![image2](graphs/pngs/EDP_graphs/speclibm.png)
+
+
+```specmcf```:
+
+![image3](graphs/pngs/EDP_graphs/specmcf.png)
+
+
+```specsjeng```:
+
+![image4](graphs/pngs/EDP_graphs/specsjeng.png)
 
 From the above results, it is clear that the associativity and size for the caches are strongly correlated with peak power. Specifically, increasing either results in higher peak power.
 
