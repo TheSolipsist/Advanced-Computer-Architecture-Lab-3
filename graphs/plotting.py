@@ -6,16 +6,13 @@ benchmarks = ["specbzip", "spechmmer", "speclibm", "specmcf", "specsjeng"]
 for i in range(len(benchmarks)):
     data_graph = []
     for j in range(6):
-        curr_dict = results[i * 6 + j]
-        data_graph.append(curr_dict["energy"] * curr_dict["runtime"])
+        data_graph.append(results[i * 6 + j])
 
     instances = list(range(6))
-    fig_path = "important_results/graphs/" + benchmarks[i]
+    fig_path = "graphs/pngs/" + benchmarks[i]
     plt.bar(instances, data_graph)
-    plt.title("EDP for " + benchmarks[i] + " benchmarks")
+    plt.title("Peak power for " + benchmarks[i] + " benchmarks")
     plt.xlabel("Instance")
-    plt.ylabel("EDP")
+    plt.ylabel("Peak power")
     plt.savefig(fig_path)
     plt.close()
-
-
