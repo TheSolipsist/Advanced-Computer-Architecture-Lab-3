@@ -106,26 +106,40 @@ The following graphs show the EDP for each benchmark:
 
 ```specbzip```:
 
+We notice that the EDP increases as the associativity for the L1 data, instruction and L2 caches increase.
+
 ![image0](graphs/pngs/specbzip.png)
 
-We notice that the EDP increases as the associativity for the L1 data, instruction and L2 caches increase.
 
 ```spechmmer```:
 
+We notice that (on average) the EDP increases as the cache sizes increase.
+
 ![image1](graphs/pngs/spechmmer.png)
 
-We notice that (on average) the EDP increases as the cache sizes increase.
 
 ```speclibm```:
 
+We notice that, while there isn't much variability on the EDP values, the highest correspond to average cache sizes.
+
 ![image2](graphs/pngs/speclibm.png)
 
-We notice that, while there isn't much variability on the EDP values, the best EDP values correspond to average cache sizes.
 
 ```specmcf```:
 
+We notice some variability on the EDP values that could be partly explained by the different cache sizes.
+
 ![image3](graphs/pngs/specmcf.png)
+
 
 ```specsjeng```:
 
+We notice that the EDP takes its highest value for average cache sizes.
+
 ![image4](graphs/pngs/specsjeng.png)
+
+
+The values are highly inconsistent.
+
+
+
