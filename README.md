@@ -171,4 +171,5 @@ Overall, the assignments have been interesting to work on, and we definitely acc
 ## References
 
 [McPAT: An Integrated Power, Area, and Timing Modeling Framework for Multicore and Manycore Architectures](https://www.hpl.hp.com/research/mcpat/micro09.pdf)
+
 [Power Consumption - Semiconductor Engineering](https://semiengineering.com/knowledge_centers/low-power/low-power-design/power-consumption/)
