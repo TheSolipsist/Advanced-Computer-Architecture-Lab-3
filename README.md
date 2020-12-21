@@ -104,22 +104,22 @@ From our [previous lab exercise](https://github.com/TheSolipsist/Advanced-Comput
 
 The following graphs show the EDP for each benchmark:
 
-```specbzip```
+```specbzip```:
 
 ![image0](graphs/pngs/specbzip.png)
 
-```spechmmer```
+```spechmmer```:
 
 ![image1](graphs/pngs/spechmmer.png)
 
-```speclibm```
+```speclibm```:
 
 ![image2](graphs/pngs/speclibm.png)
 
-```specmcf```
+```specmcf```:
 
 ![image3](graphs/pngs/specmcf.png)
 
-```specsjeng```
+```specsjeng```:
 
 ![image4](graphs/pngs/specsjeng.png)
