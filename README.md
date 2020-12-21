@@ -24,7 +24,7 @@ While dynamic power is dissipated only when switching, leakage power due to leak
 
 If we run different programs on a processor, the dynamic power will be affected, since there will be different state switches.
 
-A program's runtime will affect a processor's energy consumption ```(energy = power * runtime)```, but its power should not be affected.
+A program's runtime will affect a processor's energy consumption ```energy = power * runtime```, but its power should not be affected.
 
 #### Question 2:
 
