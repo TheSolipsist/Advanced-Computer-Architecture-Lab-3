@@ -22,6 +22,11 @@ Leakage power is a function of the supply voltage, the switching threshold volta
 
 While dynamic power is dissipated only when switching, leakage power due to leakage current is continuous.
 
+If we run different programs on a processor, the dynamic power will be affected, since there will be different state switches.
+
+A program's runtime will affect a processor's overall energy consumption (power * runtime), but its power should not be affected.
+
+
 #### Question 2:
 
 The 40 W processor could run a given program in less time than its 4 W counterpart, which would mean that, overall, the system would require less energy (assuming there are other components that consume power). In addition, if the 40 W processor has lower leakage power consumption, that would make it a more efficient choice. McPAT provides us with the total, dynamic, and leakage power, which could show us which processor is better (through the leakage/total power ratio).
@@ -134,5 +139,6 @@ From the above results, it is clear that the associativity and size for the cach
 It is possible that McPAT doesn't give completely accurate results. Its simulated models are not perfect representations of the CPUs it attempts to replicate, and, therefore, there should be some degree of error in values such as peak power or energy. Cache misses could also result in an increase in power requirement, which McPAT doesn't simulate. This would in fact cause extra errors when running two different programs to get different results on the same system.
 
 ## Lab review
+
 
 Overall, the assignments have been interesting to work on, and we definitely accumulated new knowledge through working on them. However, it feels like many of the things we had to do were menial tasks that didn't offer much in terms of understanding computer architecture. Most of the work we had to do was automating benchmarking commands and parsing the data to generate graphs. We believe that it would be more beneficial to focus on interpreting the results, rather than having to generate them ourselves.
