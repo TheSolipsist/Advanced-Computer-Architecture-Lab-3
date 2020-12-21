@@ -45,3 +45,76 @@ We ran the ```GEM5ToMcPAT.py``` and ```print_energy.py``` scripts for each bench
 
 #### Question 2:
 
+From our [previous lab exercise](https://github.com/TheSolipsist/Advanced-Computer-Architecture-Lab-2):
+
+`specmcf`:
+
+| Instance | l1d_size | l1i_size | l2_size | l1i_assoc | l1d_assoc | l2_assoc | cacheline_size |
+| :------: | :------: | :------: | :-----: | :-------: | :-------: | :------: | :------------: |
+|    0     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
+|    1     |    128   |    128   |   2048  |     8     |     8     |     16   |       64       |
+|    2     |    32    |    32    |   512   |     2     |     2     |     4    |       64       |
+|    3     |    32    |    64    |   512   |     4     |     4     |     8    |       64       |
+|    4     |    128   |    128   |   2048  |     8     |     8     |     16   |       64       |
+|    5     |    32    |    32    |   512   |     2     |     2     |     4    |       64       |
+
+`specsjeng`:
+
+| Instance | l1d_size | l1i_size | l2_size | l1i_assoc | l1d_assoc | l2_assoc | cacheline_size |
+| :------: | :------: | :------: | :-----: | :-------: | :-------: | :------: | :------------: |
+|  			0 		 |  			32 	 |  		64 	  |   512   |  			1 		  |  			1 		  |  			2    |  			  64	      |
+|  			1 		 |  			64   |  		64 	  |   1024  |  			2 		  |  			2 		  |  			8 		 |  			  64	      |
+|  			2 		 |  			64   | 			128   | 	 2048  |  			4 		  |  			4 		  |  			16   |  			  64       |
+|  			3 		 |  			128  | 			128   | 	 1024 	|  			2 		  |  			2 		  |  			8 	  |  			  64	      |
+|  			4 		 |  			64 	 | 			128   | 	 2048 	|  			16 		 |  			16 		 |  			32   |  			  64	      |
+|  			5 		 |  			128  |  		128  	| 	 4096 	|  			16 		 |  			16 		 |  			32 	 |  			  64 	     |
+
+`spechmmer`:
+
+| Instance | l1d_size | l1i_size | l2_size | l1i_assoc | l1d_assoc | l2_assoc | cacheline_size |
+| :------: | :------: | :------: | :-----: | :-------: | :-------: | :------: | :------------: |
+|  			0 		 |  			32 		|  			64 		|   512   |  			1 		  |  			1 		  |  			2 		 |  			  64 		    |
+|  			1 		 |  			64 	 |  			64 	 |  	512   |  			2 		  |  			2 		  |  			4    |  	  		64 		    |
+|  			2 		 |  			64 		|  			128 	|  	2048  |  			2 		  |  			2 		  |  			8 	  |    			64 		    |
+|  			3 		 |  			128 	|  			128  |  	2048  |  			4 		  |  			4 		  |  			8    |    			64 		    |
+|  			4 		 |  			64 	 |  			128  |  	2048  |  			16 		 |  			16 	  |  			32   |    			64 		    |
+|  			5 		 |  			128  |  			128 	|  	4096  |  			16 	  |  			16    |  			32   |    			64 	     |
+
+`specbzip`:
+
+| Instance | l1d_size | l1i_size | l2_size | l1i_assoc | l1d_assoc | l2_assoc | cacheline_size |
+| :------: | :------: | :------: | :-----: | :-------: | :-------: | :------: | :------------: |
+|  			0 		 |  			32 		|  			64 		|  	1024  |  			1 		  |  			1 		  |  			2 		 |   	 		64 		    |
+|  			1 		 |  			32 		|  			64 		|  	512 		|  			8 		  |  			8 		  |  			16 	 |   	 		64 		    |
+|  			2 		 |  			64 		|  			128 	|  	2048  |  			64 		 |  			64 		 |  			64   |   	 		64 		    |
+|  			3 		 |  			32 		|  			64 		|  	1024	 |  			2 		  |  			2 		  |  			8    |   	 		64 		    |
+|  			4 		 |  			64 		|  			32 		|  	1024 	|  			4 		  |  			4 		  |  			16   |   	 		64 		    |
+|  			5 		 |  			64 		|  			128  |  	4096 	|  			4 		  |  			4 		  |  			1    |  	  		64 		    |
+
+`speclibm`:
+
+| Instance | l1d_size | l1i_size | l2_size | l1i_assoc | l1d_assoc | l2_assoc | cacheline_size |
+| :------: | :------: | :------: | :-----: | :-------: | :-------: | :------: | :------------: |
+|  			0 		 |  			32 		|  			64 		|  	1024  |  			32 		 |  			32 		 |  			64 		|  			  64 		    |
+|  			1 		 |  			32 	 |  			64 	 |  	512 		|  			2 		  |  			2 		  |  			8 		 |  		  	64 		    |
+|  			2 		 |  			64   |  			128  |  	2048 	|  			2 		  |  			2 		  |  			8 		 |  	  		64 		    |
+|  			3 		 |  			128  |  			128  |  	1024		|  			2 		  |  			2 		  |  			8 		 |  	   	64 		    |
+|  			4 		 |  			32   |  			64 	 |  	512 		|  			16 		 |  			16 		 |  			32 		|  		  	64 		    |
+|  			5 		 |  			64   |  			128  |  	4096 	|  			16 		 |  			16 		 |  			32 		|  		  	64 		    |
+
+The following graphs show the EDP for each benchmark:
+
+```specbzip```
+![image0](important_results/graphs/specbzip.png
+
+```spechmmer```
+![image1](important_results/graphs/spechmmer.png
+
+```speclibm```
+![image2](important_results/graphs/speclibm.png
+
+```specmcf```
+![image3](important_results/graphs/specmcf.png
+
+```specsjeng```
+![image4](important_results/graphs/specsjeng.png
