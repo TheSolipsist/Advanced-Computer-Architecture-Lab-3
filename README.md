@@ -37,7 +37,7 @@ From ```resultsARM_A9.txt``` and ```resultsXEON.txt```:
 | Total (Peak) | 1.74189 | 134.938 |
 | Leakage      | 0.108687| 36.8319 |
 
-If the ```ARM_A9``` processor took 40 seconds to run a given program, it would consume energy equal to ```40 * 1.74189 = 69.6756 J```, while the ```XEON``` processor, which would run the same program in 1 second, would consume ```134.938 J```. In addition to that, if we don't shut the system down after running the program, power leakage would continue. The ```ARM_A9``` processor has ```0.108687 W``` leakage power, while the ```XEON``` processor has ```36.8319``` leakage power. So, in any scenario, the ```ARM_A9``` processor is more energy efficient, since it consumes less energy and also has lower leakage power.
+If the ```ARM_A9``` processor took 40 seconds to run a given program, it would consume energy equal to ```40 * 1.74189 = 69.6756 J```, while the ```XEON``` processor, which would run the same program in 1 second, would consume ```134.938 J```. In addition to that, if we don't shut the system down after running the program, power leakage would continue. The ```ARM_A9``` processor has ```0.108687 W``` leakage power, while the ```XEON``` processor has ```36.8319``` leakage power. So, the ```ARM_A9``` processor is more energy efficient, since it consumes less energy and also has lower leakage power.
 
 ### Step 2: gem5 & McPAT: EDP optimization
 
