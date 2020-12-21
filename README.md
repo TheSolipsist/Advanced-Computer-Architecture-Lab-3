@@ -139,5 +139,6 @@ It is possible that McPAT doesn't give completely accurate results. Its simulate
 
 ## Lab review
 
+This lab exercise gave us new information as to how a processor's total power correlates with its different parameters.
 
 Overall, the assignments have been interesting to work on, and we definitely accumulated new knowledge through working on them. However, it feels like many of the things we had to do were menial tasks that didn't offer much in terms of understanding computer architecture. Most of the work we had to do was automating benchmarking commands and parsing the data to generate graphs. We believe that it would be more beneficial to focus on interpreting the results, rather than having to generate them ourselves.
