@@ -102,7 +102,7 @@ From our [previous lab exercise](https://github.com/TheSolipsist/Advanced-Comput
 |  			4 		 |  			64 	 | 			128   | 	 2048 	|  			16 		 |  			16 		 |  			32   |  			  64	      |
 |  			5 		 |  			128  |  		128  	| 	 4096 	|  			16 		 |  			16 		 |  			32 	 |  			  64 	     |
 
-The following graphs show the EDP for each benchmark:
+The following graphs show the peak power for each benchmark:
 
 ```specbzip```:
 
