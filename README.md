@@ -26,7 +26,6 @@ If we run different programs on a processor, the dynamic power will be affected,
 
 A program's runtime will affect a processor's overall energy consumption (power * runtime), but its power should not be affected.
 
-
 #### Question 2:
 
 The 40 W processor could run a given program in less time than its 4 W counterpart, which would mean that, overall, the system would require less energy (assuming there are other components that consume power). In addition, if the 40 W processor has lower leakage power consumption, that would make it a more efficient choice. McPAT provides us with the total, dynamic, and leakage power, which could show us which processor is better (through the leakage/total power ratio).
