@@ -131,7 +131,7 @@ The following graphs show the peak power for each benchmark:
 
 From the above results, it is clear that the associativity and size for the caches are strongly correlated with peak power. Specifically, increasing either results in higher peak power.
 
-It is possible that McPAT doesn't give completely accurate results. Its simulated models are not perfect representations of the CPUs it attempts to replicate, and, therefore, there should be some degree of error in its results, such as peak power or energy. Cache misses could also result in an increase in power requirement, which McPAT doesn't simulate. This would in fact cause extra errors when running two different programs to get different results on the same system.
+It is possible that McPAT doesn't give completely accurate results. Its simulated models are not perfect representations of the CPUs it attempts to replicate, and, therefore, there should be some degree of error in values such as peak power or energy. Cache misses could also result in an increase in power requirement, which McPAT doesn't simulate. This would in fact cause extra errors when running two different programs to get different results on the same system.
 
 
 
