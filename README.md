@@ -28,7 +28,7 @@ The 40 W processor could run a given program in less time than its 4 W counterpa
 
 #### Question 3:
 
-From ```resultsARM_A9.txt``` and ```resultsXEON.txt```:
+From [resultsARM_A9.txt](https://github.com/TheSolipsist/Advanced-Computer-Architecture-Lab-3/blob/main/resultsARM_A9.txt) and [resultsXEON.txt](https://github.com/TheSolipsist/Advanced-Computer-Architecture-Lab-3/blob/main/resultsXEON.txt):
 
 | Power        | ARM_A9  |  XEON   |
 | :----------: | :-----: | :-----: |
