@@ -41,4 +41,6 @@ If the ```ARM_A9``` processor took 40 seconds to run a given program, it would c
 
 #### Question 1:
 
+We ran the ```print_energy.py``` script for each benchmark and got the required [results](https://github.com/TheSolipsist/Advanced-Computer-Architecture-Lab-3/tree/main/print_energy_results).
+
 #### Question 2:
