@@ -5,7 +5,7 @@ Results collected by McPAT running on VirtualBox VM Ubuntu 19.10.
  
 ## Step 1: McPAT framework basics
 
-#### Question 1:
+### Question 1:
 
 As explained [here](https://semiengineering.com/knowledge_centers/low-power/low-power-design/power-consumption/):
 
@@ -26,11 +26,11 @@ If we run different programs on a processor, the dynamic power will be affected,
 
 A program's runtime will affect a processor's energy consumption ```energy = power * runtime```, but its power should not be affected.
 
-#### Question 2:
+### Question 2:
 
 The 40 W processor could run a given program in less time than its 4 W counterpart, which would mean that, overall, the system would require less energy (assuming there are other components that consume power). More on point, if the 40 W processor has lower leakage power consumption, that would make it a more efficient choice. McPAT provides us with the total, dynamic, and leakage power, which could show us which processor is better (through the leakage/total power ratio). However, McPAT doesn't give us results in terms of runtime, which would allow us to calculate the overall energy consumption.
 
-#### Question 3:
+### Question 3:
 
 From [resultsARM_A9.txt](https://github.com/TheSolipsist/Advanced-Computer-Architecture-Lab-3/blob/main/resultsARM_A9.txt) and [resultsXEON.txt](https://github.com/TheSolipsist/Advanced-Computer-Architecture-Lab-3/blob/main/resultsXEON.txt):
 
@@ -43,11 +43,11 @@ If the ```ARM_A9``` processor took 40 seconds to run a given program, it would c
 
 ## Step 2: gem5 & McPAT: EDP optimization
 
-#### Question 1:
+### Question 1:
 
 We ran the ```GEM5ToMcPAT.py``` and ```print_energy.py``` scripts for each benchmark and got the required [results](https://github.com/TheSolipsist/Advanced-Computer-Architecture-Lab-3/tree/main/print_energy_results).
 
-#### Question 2:
+### Question 2:
 
 From our [previous lab exercise](https://github.com/TheSolipsist/Advanced-Computer-Architecture-Lab-2):
 
