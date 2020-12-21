@@ -1,0 +1,4 @@
+Reading simulation time from: ../Lab_3/mcpat_step2_results/specmcf_2.txt
+Reading simulation time from: ../my_gem5/spec_results_step2/specmcf_2/stats.txt
+leakage: 0.744714 W, dynamic: 0.136135 W and runtime: 0.065442 sec
+energy is 57.644520 mJ
