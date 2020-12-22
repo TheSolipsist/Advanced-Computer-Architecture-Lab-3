@@ -129,7 +129,7 @@ The following graphs show the peak power for each benchmark:
 
 ![image4](graphs/pngs/specsjeng.png)
 
-For inclusive purposes, the following graphs show the EDP for each benchmark:
+For purposes of inclusion, the following graphs show the EDP for each benchmark:
 
 ```specbzip```:
 
